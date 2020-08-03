@@ -1,4 +1,4 @@
-package com.css.server;
+package com.css.server.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
