@@ -11,18 +11,24 @@
        http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
 
     <!-- 扫描注解，这样com.css包下的文件都能被扫描 -->
-    <context:component-scan base-package="com.css"/>
+    <context:component-scan base-package="com.css.server"/>
 
     <!-- 开启SpringMVC注解模式 -->
     <mvc:annotation-driven/>
 
     <!-- 静态资源默认servlet配置 -->
     <mvc:default-servlet-handler/>
+    <!--处理静态资源-->
+<!--    <mvc:default-servlet-handler/>-->
+<!--    <mvc:resources location="/WEB-INF/js/" mapping="/js/**" />-->
+<!--    <mvc:resources location="/WEB-INF/css/" mapping="/css/**" />-->
+<!--    <mvc:resources location="/WEB-INF/fonts/" mapping="/fonts/**" />-->
 
     <!-- 配置返回视图的路径，以及识别后缀是jsp文件 -->
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
-        <property name="prefix" value="/WEB-INF/jsp/"/>
-        <property name="suffix" value=".jsp"/>
-    </bean>
+<!--    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">-->
+<!--        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>-->
+<!--        <property name="prefix" value="/WEB-INF/views/"/>-->
+<!--        <property name="suffix" value=".jsp"/>-->
+<!--    </bean>-->
+
 </beans>
