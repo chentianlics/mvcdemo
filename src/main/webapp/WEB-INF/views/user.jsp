@@ -58,33 +58,33 @@
             </div>
             <form id="formbody" action="/api/dologin" method="get" class="form-horizontal" role="form">
                 <div class="form-group">
-                    <label class="col-sm-2 col-xs-2 col-sm-offset-2 control-label">id</label>
+                    <label class="col-sm-2 col-xs-2 col-sm-offset-2 control-label">唯一id</label>
                     <div class="col-sm-4 col-xs-10">
-                        <li>${requestScope.user.id}</li>
+                        ${requestScope.user.id}
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-sm-2 col-xs-2 col-sm-offset-2 control-label">email</label>
+                    <label class="col-sm-2 col-xs-2 col-sm-offset-2 control-label">邮箱</label>
                     <div class="col-sm-4 col-xs-10">
-                        <li>${requestScope.user.email}</li>
+                        ${requestScope.user.email}
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-sm-2 col-xs-2 col-sm-offset-2 control-label">username</label>
+                    <label class="col-sm-2 col-xs-2 col-sm-offset-2 control-label">账号</label>
                     <div class="col-sm-4 col-xs-10">
-                        <li>${requestScope.user.username}</li>
+                        ${requestScope.user.username}
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-sm-2 col-xs-2 col-sm-offset-2 control-label">role</label>
+                    <label class="col-sm-2 col-xs-2 col-sm-offset-2 control-label">权限</label>
                     <div class="col-sm-4 col-xs-10">
-                        <li>${requestScope.user.role}</li>
+                        ${requestScope.user.role}
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="col-sm-2 col-xs-2 col-sm-offset-2 control-label">mobile</label>
+                    <label class="col-sm-2 col-xs-2 col-sm-offset-2 control-label">手机</label>
                     <div class="col-sm-4 col-xs-10">
-                        <li>${requestScope.user.mobile}</li>
+                        ${requestScope.user.mobile}
                     </div>
                 </div>
 <%--                <div class="form-group">--%>
